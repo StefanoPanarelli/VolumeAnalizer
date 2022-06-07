@@ -5,7 +5,7 @@ Questo script analizza una determinata directory in modo recursivo analizzando o
 
  -  **-path**: che andrà ad indicare la cartella da analizzare (in caso non venisse messa verrà presa la posizione corrente dell'utente)
  - **-filterType**: che indicherà la tipologia di filtro, che può essere unicamente **E** (esclusivo) oppure **I** (inclusivo).  Se specifichiamo **I** come **-filterType** verranno prese in considerazione __solo__ le estensioni specificate nel parametro seguente, altrimenti con **E** verranno **escluse** e quindi ignorate dallo script. Nel caso non venisse messo niente oppure venisse messo un valore sbagliato verrà fatta un analisi completa prendendo in considerazione **tutti** i file.
- - **-filter**: in questo parametro possiamo specificare una serie di estensioni che fungeranno da filtro in base al parametro precedente. Le estensioni vanno scritte così: `-filter .txt .sql`
+ - **-filter**: in questo parametro possiamo specificare una serie di estensioni che fungeranno da filtro in base al parametro precedente. Le estensioni vanno scritte così: `-filter .txt,.sql`
  
 Viene ritornata una tabella con le seguenti informazioni:
  - l'estensione analizzata
